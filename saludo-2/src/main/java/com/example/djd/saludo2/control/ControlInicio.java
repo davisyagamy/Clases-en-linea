@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ControlInicio {
 
     @GetMapping("/")
-    public String iniciar(){
-        return "hola mundo otra ves desde spring boot y el IntelliJ IDEA";
+    public String iniciar() {
+        return "hola mundo otra ves desde spring boot y el IntelliJ IDEA" + "aprendiendo a realizar comentarios";
     }
 }
